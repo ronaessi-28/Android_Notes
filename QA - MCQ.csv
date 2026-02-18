@@ -1,0 +1,61 @@
+Question No.,Question,A,B,C,D,Correct Answer
+1,Which Intent type requires you to specify the exact class name of the target?,Implicit Intent,Explicit Intent,Broadcast Intent,Pending Intent,B
+2,"Where must all permissions used by an app be declared, regardless of their protection level?",activity_main.xml,build.gradle,AndroidManifest.xml,settings.gradle,C
+3,Which component is best for handling a task that runs even if the user exits the app?,Activity,Broadcast Receiver,Service,Content Provider,C
+4,How does AndroidManifest.xml start?,<manifest>,<menifest>,<MANIFEST>,<MANIFEAST>,A
+5,"If a view in ConstraintLayout has no constraints, where does it appear at runtime?",Center of the screen,Bottom right,"Top left (0,0)",It does not appear,C
+6,Which lifecycle method is called just before an Activity onDestroy is called?,onPause(),onStop(),onDestroy(),onRestart(),B
+7,"An Intent that asks the system to ""Open a Web Link"" without naming a specific app is:",Explicit,Implicit,Static,Private,B
+8,What is used to share the data between applications?,Content Provider,Service,Activity,Intent,A
+9,Permissions like CAMERA or LOCATION that require user approval at runtime are called:,Normal Permissions,Dangerous Permissions,Signature Permissions,System Permissions,B
+10,Which of the following is an example of System Software?,MS Word,Android OS,WhatsApp,Chrome Browser,B
+11,What is Android?,Programming language,Operating system for mobile devices,Database,Web server,B
+12,Android is mainly based on which kernel?,Windows Kernel,Mac Kernel,Linux Kernel,Java Kernel,C
+13,Android Runtime (ART) is responsible for:,UI Design,Android apps,Internet connection,Camera control,B
+14,What is XML mainly used for in Android?,Writing business logic,Designing UI layouts,Database connection,Writing services,B
+15,Which method is called first when an Activity is created?,onStart(),onResume(),onCreate(),onPause(),C
+16,What is the purpose of AndroidManifest.xml?,UI Design,Declare components and permissions,Store images,Write Java code,B
+17,What is an Intent in Android?,Database,A messaging object used to request actions,UI Component,Background thread,B
+18,"To send data from one Activity to another, which method is used?",putExtra(),getLayout(),setView(),addPermission(),A
+19,Which method is used to receive string data from Intent?,getIntentData(),getExtra(),getStringExtra(),receiveData(),C
+20,Which permission is required to access Internet in Android?,ACCESS_WIFI,INTERNET,NETWORK_ACCESS,DATA_USAGE,B
+21,What is the main advantage of AAB over APK?,Larger file size,Play Store generates optimized APKs,Works without internet,Faster coding,B
+22,bundletool is used for:,Writing Java code,Converting AAB to APKs,Designing UI,Creating database,B
+23,What is a Service in Android?,UI component,Background component without UI,Layout file,Database,B
+24,Which type of Service runs in background for long tasks like music?,Foreground Service,Layout Service,Intent Service,XML Service,A
+25,BroadcastReceiver is mainly used for:,UI Design,Listening to system-wide events,Database queries,Starting Activities only,B
+26,"You created a Login screen in XML but when running the app, the screen is blank. What is the most likely issue?",Forgot permission,setContentView() not called,Internet not enabled,Gradle not synced,B
+27,You want to open SecondActivity from MainActivity in same app. Which should you use?,Implicit Intent,Explicit Intent,Broadcast Receiver,Service,B
+28,App crashes with ActivityNotFoundException. Why?,Wrong layout,Activity not in Manifest,Internet disabled,Gradle issue,B
+29,Camera permission added in Manifest but still not working on Android. Why?,Restart phone,Runtime permission needed,Gradle error,Emulator issue,B
+30,User presses Home button. Which lifecycle methods are called?,onDestroy,onStart,onPause & onStop,onRestart,C
+31,You want to debug value before passing to next Activity. Where to put breakpoint?,Manifest,Intent line,XML,build.gradle,B
+32,You want to filter only error logs in Logcat. Which level?,Log.v,Log.d,Log.i,Log.e,D
+33,You want to send username from MainActivity to SecondActivity. What is needed?,Intents,Service,BroadcastReceiver,ContentProvider,A
+34,You need to load website inside your app. Which component?,Service,WebView,Intent,Fragment,B
+35,You want Play Store to generate optimized APK per device. Upload?,APK,ZIP,AAB,JAR,C
+36,You generated AAB and want to inspect it. Which tool?,adb,gradle,bundletool,Logcat,C
+37,App must respond when battery is low. Which component?,Activity,Service,BroadcastReceiver,ContentProvider,C
+38,Pressing Back from SecondActivity. Which method is called?,onRestart,onStart,onDestroy,onCreate,C
+39,"During debugging, you want to execute the next line of code without entering inside the called method. Which option should you use?",Step Over,Resume,Step Into,Stop,A
+40,Which file is metaphorically described as the backbone for an app?,AndroidManifest.xml,build.gradle,MainActivity.kt,strings.xml,B
+41,Which file acts and applies to every module in a project?,Module-level build.gradle,settings.gradle,Project-level build.gradle,local.properties,C
+42,In which section of build.gradle do you set the Application ID and minSdk?,defaultConfig,buildTypes,plugins,dependencies,A
+43,"Which Gradle feature allows creating ""Free"" and ""Paid"" versions from one codebase?",Dependency Management,Flavoring,Automation,Version Control,B
+44,What is the primary purpose of setting isMinifyEnabled = true?,Speeds up compilation,Adds new features,Shrinks code size,Updates the SDK,C
+45,Which setting determines the oldest Android version that can install your app?,compileSdk,targetSdk,versionCode,minSdk,D
+46,Where do you list external/ 3rd party libraries?,plugins,android { ... },dependencies,buildTypes,C
+47,"Which file is described as the ""blueprint"" for app identity?",AndroidManifest.xml,build.gradle,proguard-rules.pro,settings.gradle,A
+48,What does compileSdk represent in the build configuration?,The oldest phone supported,The version for the Play Store,The newest features your app can use,The app's version name,C
+49,Which company has developed android?,Apple,Google,Android Inc.,Nokia,C
+50,Which is the latest mobile version of android?,3.0 (Honeycomb),2.3 (Gingerbread),8.0 (Oreo),16(Baklava),D
+51,"To increase whitespace between widgets, use the property:",android:margin,android:digits,android:capitalize,android:auto Text,A
+52,"For creating user interface in Android, you have to use ",Eclipse,XML,Java and SQL,Java and Pl/sql,B
+53,ADB stands for?,Android Debug Bridge,Application Debug Bridge,Android Data Bridge,Application Data Bridge,A
+54,What is mean by ANR?,Application Not Recognized,Android Not Recognized,Application Not Responding,None of these,C
+55,Which holds Java source code for the application?,res/,assets/,src/,bin/,C
+56,Represents single user interface of screen,Services,Intents,Activity,Content Provider,C
+57,First Activity life-cycle callback method invoked,onStop(),onStart(),onCreate(),onRestore(),C
+58,Method to retrieve a View reference by XML ID,findViewByReference,findViewById(int id),retrieve ResourceByld,findViewById(String id),B
+59,An activity corresponds to what?,A Java project,Java class,Method calls,An object field,B
+60,View that displays device log messages,Log,Logcat,CatLog,File Explorer,B

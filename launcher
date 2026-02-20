@@ -1,0 +1,47 @@
+     launcher=registerForActivityResult(new ActivityResultContracts.StartActivityForResult() ,result ->{
+            if(result.getResultCode() == RESULT_OK){
+                Intent data=result.getData();
+                String msg=data.getStringExtra("message");
+                textView.setText(msg);
+            }
+
+        });
+
+
+
+        Intent in=new Intent(this, OrderSummary.class);
+            RadioButton rBtn=findViewById(id);
+            in.putExtra("radiochoice",rBtn.getText().toString());
+            in.putExtra("quantity",quantityEdit.getText().toString());
+            in.putExtra("cover",coverCbx.isChecked());
+            in.putExtra("insurance",insuranceCbx.isChecked());
+            launcher.launch(in);
+
+
+    TextView textView;
+    ActivityResultLauncher<Intent> launcher;
+
+
+
+    @Override
+    public void onClick(View v) {
+        int id=v.getId();
+        if(id==R.id.confirm_bt){
+            Intent in=new Intent(this, MainActivity.class);
+            in.putExtra("message","Order is Confirmed");
+            setResult(RESULT_OK,in);
+
+            finish();
+//            Toast.makeText(this, "Order Confirmed", Toast.LENGTH_SHORT).show();
+
+
+        } else if (id==R.id.cancel_bt) {
+            Intent in=new Intent(this, MainActivity.class);
+            in.putExtra("message","Order is Cancelled");
+            setResult(RESULT_OK,in);
+
+            finish();
+
+//            Toast.makeText(this, "Order Cancelled", Toast.LENGTH_SHORT).show();
+        }
+    }

@@ -1,0 +1,312 @@
+Good 😎 this looks like hint-based leaked MCQ keywords, and answers are already indirectly written.
+
+I’ll convert each hint into a proper exam-style MCQ question (4 options + correct answer) based on what is written in your notebook.
+
+
+---
+
+✅ MCQs From Your Hints
+
+
+---
+
+Q1) If a Service is started and not stopped explicitly, what happens?
+
+A) It stops automatically after 5 minutes
+B) It runs infinitely until stopped
+C) It pauses when Activity is destroyed
+D) It restarts the device
+Answer: B) It runs infinitely until stopped
+
+
+---
+
+Q2) Compared to APK, what is true about AAB?
+
+A) AAB is always larger
+B) AAB is smaller for users after Play optimization
+C) AAB runs faster
+D) AAB works without Play Store
+Answer: B) AAB is smaller for users after Play optimization
+
+
+---
+
+Q3) Which permission allows app to start automatically after device boot?
+
+A) INTERNET
+B) RECEIVE_BOOT_COMPLETED
+C) ACCESS_NETWORK_STATE
+D) RESTART_APP
+Answer: B) RECEIVE_BOOT_COMPLETED
+
+
+---
+
+Q4) To start an app after boot completion, which component is required?
+
+A) Service
+B) Activity
+C) BroadcastReceiver
+D) ContentProvider
+Answer: C) BroadcastReceiver
+
+
+---
+
+Q5) If we forget to call setContentView() inside onCreate(), what happens?
+
+A) App crashes immediately
+B) Black/Blank screen appears
+C) Activity does not start
+D) Manifest error
+Answer: B) Black/Blank screen appears
+
+
+---
+
+Q6) What exception occurs if you try to perform a call without declaring permission?
+
+A) NullPointerException
+B) ActivityNotFoundException
+C) SecurityException
+D) RuntimeException
+Answer: C) SecurityException
+
+
+---
+
+Q7) To access contacts database in Android, which component is used?
+
+A) Service
+B) BroadcastReceiver
+C) ContentProvider
+D) Intent
+Answer: C) ContentProvider
+
+
+---
+
+Q8) To make an Activity launchable from launcher, what must be added?
+
+A) Permission tag
+B) Intent-filter with MAIN and LAUNCHER
+C) Service binding
+D) Gradle plugin
+Answer: B) Intent-filter with MAIN and LAUNCHER
+
+
+---
+
+Q9) Which permission is required for binding an Accessibility Service?
+
+A) BIND_SERVICE
+B) BIND_ACCESSIBILITY_SERVICE
+C) ACCESSIBILITY_PERMISSION
+D) SYSTEM_BIND
+Answer: B) BIND_ACCESSIBILITY_SERVICE
+
+
+---
+
+Q10) Contacts and SMS are accessed using what structure?
+
+A) File path
+B) URL
+C) URI
+D) JSON
+Answer: C) URI
+
+
+---
+
+Q11) Android apps can be developed using:
+
+A) Python only
+B) Java and Kotlin
+C) C++ only
+D) PHP
+Answer: B) Java and Kotlin
+
+
+---
+
+Q12) Which file is considered the backbone of Android project configuration?
+
+A) AndroidManifest.xml
+B) strings.xml
+C) build.gradle
+D) MainActivity.java
+Answer: C) build.gradle
+
+
+---
+
+Q13) When user is actively interacting with an Activity, which method is called?
+
+A) onPause()
+B) onStop()
+C) onResume()
+D) onDestroy()
+Answer: C) onResume()
+
+
+---
+
+Q14) When Activity goes to background, which method is triggered?
+
+A) onStart()
+B) onResume()
+C) onPause()
+D) onRestart()
+Answer: C) onPause()
+
+
+---
+
+Q15) Default launch mode of an Activity is:
+
+A) singleTop
+B) singleTask
+C) standard
+D) singleInstance
+Answer: C) standard
+
+
+---
+
+Q16) ContentResolver is used to:
+
+A) Start Activity
+B) Bind Service
+C) Communicate with ContentProvider
+D) Send Broadcast
+Answer: C) Communicate with ContentProvider
+
+
+---
+
+Q17) UI elements in Android are measured in:
+
+A) Inches
+B) Pixels
+C) dp and sp (density-based units)
+D) Percentages
+Answer: C) dp and sp
+
+
+---
+
+Q18) Foreground Service must display:
+
+A) Dialog
+B) Toast
+C) Notification
+D) Alert
+Answer: C) Notification
+
+
+---
+
+Q19) Foreground Service requires which permission (Android 13+)?
+
+A) FOREGROUND_SERVICE
+B) POST_NOTIFICATIONS
+C) INTERNET
+D) ACCESS_NETWORK
+Answer: B) POST_NOTIFICATIONS
+
+
+---
+
+Q20) WakeLock is used to:
+
+A) Restart device
+B) Keep CPU awake
+C) Lock screen
+D) Stop service
+Answer: B) Keep CPU awake
+
+
+---
+
+Q21) To handle real-time system events like battery low, which component is used?
+
+A) Activity
+B) Service
+C) BroadcastReceiver
+D) Fragment
+Answer: C) BroadcastReceiver
+
+
+---
+
+Q22) In debugging, "Step Over" means:
+
+A) Stop execution
+B) Go inside method
+C) Execute next line without entering method
+D) Restart debugging
+Answer: C) Execute next line without entering method
+
+
+---
+
+Q23) To share data between two apps, which component is used?
+
+A) Intent
+B) Service
+C) ContentProvider
+D) Fragment
+Answer: C) ContentProvider
+
+
+---
+
+Q24) RecyclerView Adapter typically:
+
+A) Implements Fragment
+B) Extends BaseAdapter or RecyclerView.Adapter
+C) Extends Activity
+D) Implements BroadcastReceiver
+Answer: B) Extends RecyclerView.Adapter
+
+
+---
+
+Q25) To check permission at runtime, which method is used?
+
+A) checkSelfPermission()
+B) verifyPermission()
+C) requestPermissionDirect()
+D) validatePermission()
+Answer: A) checkSelfPermission()
+
+
+---
+
+Q26) Runtime permissions were introduced in which Android version?
+
+A) Lollipop
+B) KitKat
+C) Marshmallow
+D) Nougat
+Answer: C) Marshmallow
+
+
+---
+
+🔥 That’s everything converted from your leaked hint sheet.
+
+If you want next:
+
+💀 Convert this into “Exam Trap Version” (very confusing options)
+
+📘 Make a 30-mark University paper from this
+
+🎯 Predict most probable 10 questions from this list
+
+🧠 Viva questions from these hints
+
+
+Tell me your exam level and date 😎

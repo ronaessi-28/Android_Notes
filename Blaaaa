@@ -1,0 +1,684 @@
+Perfect 🔥
+Here are your 60 Confusing MCQs with Answers (exam-level tricky options + correct answer clearly marked).
+
+
+---
+
+✅ Android MCQ (Confusing Version with Answers)
+
+
+---
+
+Q1) Which Intent type requires explicitly specifying the target Activity class?
+
+A) Explicit Intent
+B) Implicit Intent
+C) System Intent
+D) Broadcast Intent
+Answer: A) Explicit Intent
+
+
+---
+
+Q2) Where must an app declare permissions like CAMERA or INTERNET?
+
+A) build.gradle (Module)
+B) AndroidManifest.xml
+C) strings.xml
+D) Gradle properties file
+Answer: B) AndroidManifest.xml
+
+
+---
+
+Q3) Which component is best suited for performing background work even when the user leaves the app?
+
+A) Activity
+B) Service
+C) BroadcastReceiver
+D) Worker Thread
+Answer: B) Service
+
+
+---
+
+Q4) Which is the root tag of AndroidManifest.xml?
+
+A) <application>
+B) <manifest>
+C) <activity>
+D) <android>
+Answer: B) <manifest>
+
+
+---
+
+Q5) In ConstraintLayout, if a View has no constraints, where will it appear?
+
+A) Center of parent
+B) Based on layout_gravity
+C) Top-left corner (0,0)
+D) It crashes the app
+Answer: C) Top-left corner (0,0)
+
+
+---
+
+Q6) Which lifecycle method is called immediately before onDestroy()?
+
+A) onPause()
+B) onStop()
+C) onRestart()
+D) onStart()
+Answer: B) onStop()
+
+
+---
+
+Q7) Opening a website using Intent without specifying browser app is:
+
+A) Explicit Intent
+B) Implicit Intent
+C) Pending Intent
+D) Static Intent
+Answer: B) Implicit Intent
+
+
+---
+
+Q8) Which component allows data sharing between different applications?
+
+A) Service
+B) Intent
+C) Content Provider
+D) SharedPreferences
+Answer: C) Content Provider
+
+
+---
+
+Q9) Permissions like LOCATION and CAMERA are classified as:
+
+A) Normal Permissions
+B) Dangerous Permissions
+C) Runtime Permissions
+D) Signature Permissions
+Answer: B) Dangerous Permissions
+
+
+---
+
+Q10) Which of the following is considered System Software?
+
+A) WhatsApp
+B) Android OS
+C) Chrome
+D) MS Word
+Answer: B) Android OS
+
+
+---
+
+Q11) Android is primarily:
+
+A) A programming language
+B) A mobile operating system
+C) A development IDE
+D) A database system
+Answer: B) A mobile operating system
+
+
+---
+
+Q12) Android is based on which kernel?
+
+A) Unix Kernel
+B) Linux Kernel
+C) Windows NT Kernel
+D) Darwin Kernel
+Answer: B) Linux Kernel
+
+
+---
+
+Q13) ART (Android Runtime) is responsible for:
+
+A) Rendering UI
+B) Executing Android apps
+C) Managing permissions
+D) Handling storage
+Answer: B) Executing Android apps
+
+
+---
+
+Q14) XML in Android is mainly used for:
+
+A) Writing Java logic
+B) Designing layouts
+C) Database configuration
+D) Network handling
+Answer: B) Designing layouts
+
+
+---
+
+Q15) Which lifecycle method is first executed when Activity is created?
+
+A) onStart()
+B) onResume()
+C) onCreate()
+D) onAttach()
+Answer: C) onCreate()
+
+
+---
+
+Q16) AndroidManifest.xml primarily defines:
+
+A) UI layout
+B) App components & permissions
+C) Java classes
+D) Gradle configuration
+Answer: B) App components & permissions
+
+
+---
+
+Q17) What best defines an Intent?
+
+A) Background thread
+B) Messaging object for actions
+C) Layout container
+D) Database connection
+Answer: B) Messaging object for actions
+
+
+---
+
+Q18) Which method sends data through Intent?
+
+A) putData()
+B) setExtra()
+C) putExtra()
+D) sendExtra()
+Answer: C) putExtra()
+
+
+---
+
+Q19) Which method retrieves String data from Intent?
+
+A) getExtra()
+B) getStringExtra()
+C) fetchString()
+D) retrieveData()
+Answer: B) getStringExtra()
+
+
+---
+
+Q20) To access internet, which permission is required?
+
+A) ACCESS_NETWORK
+B) INTERNET
+C) NETWORK_STATE
+D) ACCESS_WIFI
+Answer: B) INTERNET
+
+
+---
+
+Q21) Main advantage of AAB over APK?
+
+A) Smaller install size
+B) Optimized APK generation
+C) Faster execution
+D) Easier coding
+Answer: B) Optimized APK generation
+
+
+---
+
+Q22) bundletool is mainly used for:
+
+A) Running emulator
+B) Converting AAB to APK
+C) Debugging
+D) Writing Gradle scripts
+Answer: B) Converting AAB to APK
+
+
+---
+
+Q23) Service is:
+
+A) UI screen
+B) Background component
+C) Database file
+D) Layout manager
+Answer: B) Background component
+
+
+---
+
+Q24) Music playing in background uses:
+
+A) Intent Service
+B) Foreground Service
+C) Background Thread
+D) JobScheduler
+Answer: B) Foreground Service
+
+
+---
+
+Q25) BroadcastReceiver mainly listens to:
+
+A) User clicks
+B) System-wide events
+C) Database updates
+D) Network calls
+Answer: B) System-wide events
+
+
+---
+
+Q26) Blank screen after running app likely due to:
+
+A) Missing permission
+B) setContentView() not called
+C) Gradle sync failed
+D) Internet disabled
+Answer: B) setContentView() not called
+
+
+---
+
+Q27) To open SecondActivity in same app:
+
+A) Implicit Intent
+B) Explicit Intent
+C) BroadcastReceiver
+D) Pending Intent
+Answer: B) Explicit Intent
+
+
+---
+
+Q28) ActivityNotFoundException occurs when:
+
+A) Wrong XML layout
+B) Activity not declared in Manifest
+C) Internet permission missing
+D) MinSdk mismatch
+Answer: B) Activity not declared in Manifest
+
+
+---
+
+Q29) Camera permission not working because:
+
+A) Emulator bug
+B) Runtime permission not requested
+C) Gradle issue
+D) Phone restart required
+Answer: B) Runtime permission not requested
+
+
+---
+
+Q30) Pressing Home triggers:
+
+A) onDestroy()
+B) onPause() & onStop()
+C) onRestart()
+D) onCreate()
+Answer: B) onPause() & onStop()
+
+
+---
+
+Q31) Breakpoint for debugging before navigation:
+
+A) Manifest file
+B) Intent line
+C) XML layout
+D) Gradle script
+Answer: B) Intent line
+
+
+---
+
+Q32) Error log level in Logcat:
+
+A) Log.d
+B) Log.i
+C) Log.e
+D) Log.v
+Answer: C) Log.e
+
+
+---
+
+Q33) Sending username between Activities requires:
+
+A) Intent
+B) Service
+C) ContentProvider
+D) BroadcastReceiver
+Answer: A) Intent
+
+
+---
+
+Q34) Load webpage inside app:
+
+A) Fragment
+B) WebView
+C) Service
+D) Intent
+Answer: B) WebView
+
+
+---
+
+Q35) Upload to Play Store for optimized build:
+
+A) APK
+B) AAB
+C) ZIP
+D) JAR
+Answer: B) AAB
+
+
+---
+
+Q36) Inspect AAB file:
+
+A) ADB
+B) Gradle
+C) bundletool
+D) Emulator
+Answer: C) bundletool
+
+
+---
+
+Q37) Battery low detection:
+
+A) Activity
+B) Service
+C) BroadcastReceiver
+D) JobScheduler
+Answer: C) BroadcastReceiver
+
+
+---
+
+Q38) Back pressed in SecondActivity:
+
+A) onPause()
+B) onStop()
+C) onDestroy()
+D) onRestart()
+Answer: C) onDestroy()
+
+
+---
+
+Q39) Debug without entering method:
+
+A) Step Into
+B) Step Over
+C) Resume
+D) Stop
+Answer: B) Step Over
+
+
+---
+
+Q40) Backbone of app build system:
+
+A) AndroidManifest.xml
+B) build.gradle
+C) strings.xml
+D) settings.gradle
+Answer: B) build.gradle
+
+
+---
+
+Q41) Applies to entire project:
+
+A) Module-level build.gradle
+B) settings.gradle
+C) Project-level build.gradle
+D) local.properties
+Answer: C) Project-level build.gradle
+
+
+---
+
+Q42) Application ID & minSdk set in:
+
+A) defaultConfig
+B) buildTypes
+C) plugins
+D) dependencies
+Answer: A) defaultConfig
+
+
+---
+
+Q43) Creating Free & Paid versions:
+
+A) Flavors
+B) BuildTypes
+C) Dependencies
+D) SDK Tools
+Answer: A) Flavors
+
+
+---
+
+Q44) isMinifyEnabled true:
+
+A) Improves UI
+B) Shrinks code
+C) Updates SDK
+D) Speeds Gradle
+Answer: B) Shrinks code
+
+
+---
+
+Q45) Oldest supported Android version:
+
+A) compileSdk
+B) targetSdk
+C) versionCode
+D) minSdk
+Answer: D) minSdk
+
+
+---
+
+Q46) External libraries declared in:
+
+A) plugins
+B) dependencies
+C) android block
+D) defaultConfig
+Answer: B) dependencies
+
+
+---
+
+Q47) Blueprint of app identity:
+
+A) AndroidManifest.xml
+B) build.gradle
+C) settings.gradle
+D) proguard file
+Answer: A) AndroidManifest.xml
+
+
+---
+
+Q48) compileSdk defines:
+
+A) Oldest version supported
+B) Latest APIs used
+C) App version name
+D) Play Store version
+Answer: B) Latest APIs used
+
+
+---
+
+Q49) Android originally developed by:
+
+A) Google
+B) Android Inc.
+C) Nokia
+D) Apple
+Answer: B) Android Inc.
+
+
+---
+
+Q50) Latest Android version:
+
+A) Oreo
+B) Pie
+C) 16 (Baklava)
+D) 14
+Answer: C) 16 (Baklava)
+
+
+---
+
+Q51) Space between widgets:
+
+A) padding
+B) margin
+C) gravity
+D) weight
+Answer: B) margin
+
+
+---
+
+Q52) UI designed using:
+
+A) Java
+B) Kotlin
+C) XML
+D) SQL
+Answer: C) XML
+
+
+---
+
+Q53) ADB stands for:
+
+A) Android Debug Bridge
+B) Application Debug Bridge
+C) Android Data Bridge
+D) Application Data Bridge
+Answer: A) Android Debug Bridge
+
+
+---
+
+Q54) ANR means:
+
+A) Application Not Recognized
+B) Application Not Responding
+C) Android Not Running
+D) App Network Response
+Answer: B) Application Not Responding
+
+
+---
+
+Q55) Java code stored in:
+
+A) res
+B) src
+C) assets
+D) libs
+Answer: B) src
+
+
+---
+
+Q56) Single UI screen:
+
+A) Activity
+B) Fragment
+C) Service
+D) ViewGroup
+Answer: A) Activity
+
+
+---
+
+Q57) First lifecycle callback:
+
+A) onStart()
+B) onCreate()
+C) onResume()
+D) onAttach()
+Answer: B) onCreate()
+
+
+---
+
+Q58) Get View by ID:
+
+A) findViewById(int id)
+B) findView(String id)
+C) getViewById()
+D) retrieveView()
+Answer: A) findViewById(int id)
+
+
+---
+
+Q59) Activity corresponds to:
+
+A) Java class
+B) Project
+C) Layout file
+D) Method
+Answer: A) Java class
+
+
+---
+
+Q60) Tool that shows device logs:
+
+A) Log
+B) Logcat
+C) Monitor
+D) Console
+Answer: B) Logcat
+
+
+---
+
+If you want next level 😎
+I can make:
+
+🔥 Scenario-based tricky MCQs
+
+💀 Ultra-hard exam trap questions
+
+📘 Full mock test (without answers at end)
+
+🧠 Viva questions with detailed explanation
+
+
+Tell me what level your exam is — Diploma / BTech / Interview / University?

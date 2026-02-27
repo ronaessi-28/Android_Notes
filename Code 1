@@ -1,0 +1,633 @@
+Perfect 👍 Viney, I’ll think like an examiner and design this properly for Milestone 3 Weekly.
+
+First, let’s filter the MOST IMPORTANT & HIGH-PROBABILITY TOPICS from your syllabus.
+
+
+---
+
+✅ 🔥 Most Important Topics (Exam-Focused Filtering)
+
+1️⃣ Kotlin Advanced Features
+
+Lambdas & Higher Order Functions
+
+Extension Functions
+
+Scope Functions (let, apply, run, also, with)
+
+Kotlin idioms (null safety, smart cast, etc.)
+
+
+👉 VERY HIGH probability in MCQs.
+
+
+---
+
+2️⃣ Coroutines & Async Programming
+
+Coroutine basics (Job, suspend, launch, async)
+
+Coroutine scopes (GlobalScope, viewModelScope, etc.)
+
+Dispatchers (Main, IO, Default)
+
+Flow vs StateFlow
+
+Async tasks vs Coroutines difference
+
+
+👉 Extremely important for both MCQs and coding.
+
+
+---
+
+3️⃣ IPC – Intents & Services
+
+Explicit vs Implicit Intent
+
+Service lifecycle
+
+Started vs Bound Service
+
+Intent data sharing
+
+Binder basics
+
+
+👉 Very exam favorite topic.
+
+
+---
+
+4️⃣ Advanced IPC
+
+AIDL concept
+
+Messenger vs Binder
+
+Content Provider CRUD
+
+Bound Service lifecycle
+
+
+👉 Medium to High difficulty questions.
+
+
+---
+
+5️⃣ Native Libraries & JNI
+
+What is JNI?
+
+What is .so file?
+
+Why NDK?
+
+Security risk of native code
+
+Frida usage basics
+
+
+👉 Usually 2–3 MCQs definitely come from here.
+
+
+---
+
+Now I’ll create:
+
+🧠 SET A
+
+(2 Coding Questions + 20 MCQs)
+
+
+---
+
+📝 SET A – Coding Questions
+
+🔹 Q1 (Basic – Kotlin)
+
+Write a Kotlin function using lambda that takes two integers and performs addition. Then call it.
+
+
+---
+
+🔹 Q2 (Medium – Coroutines)
+
+Create a coroutine that:
+
+Runs on IO dispatcher
+
+Simulates a network call using delay
+
+Returns data to Main thread
+
+Prints result
+
+
+
+---
+
+📚 SET A – 20 MCQs
+
+1. What is a lambda in Kotlin?
+A) Class
+B) Anonymous function ✅
+C) Interface
+D) Object
+
+
+2. Which is a higher-order function?
+A) Function returning Int
+B) Function taking another function as parameter ✅
+C) Constructor
+D) Class
+
+
+3. Extension functions are used to:
+A) Modify original class file
+B) Add functionality without modifying class ✅
+C) Replace class
+D) Inherit class
+
+
+4. Which scope function returns the object itself?
+A) let
+B) run
+C) also ✅
+D) with
+
+
+5. let uses which keyword inside block?
+A) this
+B) it ✅
+C) self
+D) obj
+
+
+6. Coroutine builder for launching new coroutine:
+A) start
+B) launch ✅
+C) execute
+D) asyncTask
+
+
+7. Which dispatcher is for network/database?
+A) Main
+B) Default
+C) IO ✅
+D) Global
+
+
+8. Flow is:
+A) Thread
+B) Stream of data asynchronously ✅
+C) Intent
+D) Binder
+
+
+9. StateFlow holds:
+A) Multiple states
+B) Latest state value ✅
+C) No state
+D) Null only
+
+
+10. Explicit Intent requires:
+A) Action
+B) Component name ✅
+C) URI
+D) Permission
+
+
+11. Service lifecycle method called first:
+A) onStart
+B) onCreate ✅
+C) onBind
+D) onDestroy
+
+
+12. Started service stops using:
+A) finish()
+B) stopSelf() ✅
+C) close()
+D) destroy()
+
+
+13. AIDL is used for:
+A) UI design
+B) Cross-process communication ✅
+C) Layout
+D) Animation
+
+
+14. Content Provider performs:
+A) Animation
+B) CRUD operations ✅
+C) Threads
+D) Storage only
+
+
+15. JNI stands for:
+A) Java Network Interface
+B) Java Native Interface ✅
+C) Joint Native Input
+D) Java New Interface
+
+
+16. Native libraries use extension:
+A) .jar
+B) .apk
+C) .so ✅
+D) .kt
+
+
+17. NDK is used to:
+A) Write UI
+B) Write native C/C++ code ✅
+C) Create XML
+D) Debug
+
+
+18. Frida is used for:
+A) UI testing
+B) Hooking native methods ✅
+C) Design
+D) Storage
+
+
+19. Messenger works using:
+A) HTTP
+B) Handler & Message queue ✅
+C) Intent only
+D) Flow
+
+
+20. async differs from launch because:
+A) Returns Deferred result ✅
+B) Returns Unit
+C) Runs on Main
+D) Stops coroutine
+
+
+
+
+---
+
+🧠 SET B
+
+📝 Coding Questions
+
+🔹 Q1 (Basic – Scope Function)
+
+Create an object of User class and initialize it using apply.
+
+
+---
+
+🔹 Q2 (Medium – Bound Service)
+
+Create a Bound Service that:
+
+Returns a random number
+
+Activity binds and displays it
+
+
+
+---
+
+📚 SET B – 20 MCQs
+
+1. apply returns:
+A) Block result
+B) Object itself ✅
+C) Unit
+D) Null
+
+
+2. run returns:
+A) Object
+B) Block result ✅
+C) Unit
+D) this
+
+
+3. with is:
+A) Extension function
+B) Normal function ✅
+C) Coroutine
+D) Intent
+
+
+4. GlobalScope is:
+A) Lifecycle aware
+B) Not lifecycle aware ✅
+C) Thread
+D) Service
+
+
+5. suspend function can be called from:
+A) Main only
+B) Coroutine only ✅
+C) Service
+D) Intent
+
+
+6. Default dispatcher is for:
+A) CPU intensive work ✅
+B) Network
+C) UI
+D) File
+
+
+7. Flow is cold because:
+A) Doesn’t emit
+B) Starts when collected ✅
+C) Freezes
+D) Stops
+
+
+8. Intent.putExtra is used for:
+A) Binding
+B) Data sharing ✅
+C) Animation
+D) Coroutine
+
+
+9. Implicit Intent uses:
+A) Class name
+B) Action & Category ✅
+C) Binder
+D) Flow
+
+
+10. Bound Service lifecycle ends when:
+A) App closes
+B) All clients unbind ✅
+C) onDestroy called
+D) stopSelf
+
+
+11. Binder is used in:
+A) UI
+B) Bound Service ✅
+C) Flow
+D) JNI
+
+
+12. AIDL is needed when:
+A) Same process
+B) Different process ✅
+C) UI design
+D) Layout
+
+
+13. ContentResolver interacts with:
+A) Activity
+B) Content Provider ✅
+C) Service
+D) JNI
+
+
+14. JNI allows calling:
+A) XML
+B) C/C++ code ✅
+C) Kotlin
+D) Flow
+
+
+15. .so file is:
+A) Java file
+B) Shared object native file ✅
+C) XML
+D) JSON
+
+
+16. Frida mainly used in:
+A) Security testing ✅
+B) UI
+C) Layout
+D) Kotlin
+
+
+17. onBind returns:
+A) Intent
+B) IBinder ✅
+C) String
+D) Flow
+
+
+18. Messenger is simpler alternative to:
+A) AIDL ✅
+B) Intent
+C) Flow
+D) JNI
+
+
+19. Coroutine scope controls:
+A) Lifecycle of coroutine ✅
+B) Layout
+C) UI
+D) Binder
+
+
+20. Higher order function example:
+A) println()
+B) filter {} ✅
+C) class
+D) intent
+
+
+
+
+---
+
+🧠 SET C
+
+📝 Coding Questions
+
+🔹 Q1 (Basic – Extension Function)
+
+Create an extension function for String that checks if string is palindrome.
+
+
+---
+
+🔹 Q2 (Medium – Content Provider)
+
+Create a simple Content Provider supporting:
+
+Insert
+
+Query
+
+
+
+---
+
+📚 SET C – 20 MCQs
+
+1. Extension function cannot:
+A) Access private members ✅
+B) Add new behavior
+C) Be static
+D) Be public
+
+
+2. Scope functions using this:
+A) let
+B) apply ✅
+C) also
+D) none
+
+
+3. Coroutine runs sequentially unless:
+A) delay
+B) async used ✅
+C) launch
+D) IO
+
+
+4. StateFlow is:
+A) Hot flow ✅
+B) Cold flow
+C) Thread
+D) Intent
+
+
+5. launch returns:
+A) Deferred
+B) Job ✅
+C) Flow
+D) Binder
+
+
+6. async returns:
+A) Job
+B) Deferred ✅
+C) Flow
+D) Service
+
+
+7. Service declared in:
+A) XML layout
+B) AndroidManifest.xml ✅
+C) Kotlin only
+D) Flow
+
+
+8. IPC stands for:
+A) Internal process call
+B) Inter Process Communication ✅
+C) Intent process control
+D) Input process
+
+
+9. Explicit Intent used when:
+A) Known component ✅
+B) Unknown
+C) Web
+D) Flow
+
+
+10. Bound Service uses:
+A) startService
+B) bindService ✅
+C) launch
+D) flow
+
+
+11. AIDL file extension:
+A) .aidl ✅
+B) .kt
+C) .so
+D) .xml
+
+
+12. Content Provider identified by:
+A) URI ✅
+B) Intent
+C) Binder
+D) Flow
+
+
+13. CRUD stands for:
+A) Create Read Update Delete ✅
+B) Copy
+C) Reset
+D) Run
+
+
+14. JNI required header file:
+A) jni.h ✅
+B) kotlin.h
+C) android.h
+D) binder.h
+
+
+15. NDK primarily uses:
+A) Java
+B) C/C++ ✅
+C) XML
+D) Kotlin
+
+
+16. Native code increases:
+A) Security always
+B) Performance sometimes ✅
+C) UI
+D) Flow
+
+
+17. Frida can:
+A) Hook runtime methods ✅
+B) Design layout
+C) Create Flow
+D) Start Service
+
+
+18. Flow operator example:
+A) map ✅
+B) bind
+C) start
+D) jni
+
+
+19. Coroutine cancellation uses:
+A) cancel() ✅
+B) stop()
+C) finish()
+D) destroy()
+
+
+20. Higher order functions improve:
+A) Readability & flexibility ✅
+B) Memory usage
+C) Storage
+D) IPC
+
+
+
+
+---
+
+🎯 Final Advice for You (Very Important)
+
+Since only 2 questions come weekly, highest chance:
+
+1️⃣ One coding from Coroutines or IPC
+2️⃣ One coding from Kotlin scope or extension
+3️⃣ 8–10 MCQs from Coroutines
+4️⃣ 5–6 MCQs from IPC
+5️⃣ 2–3 MCQs from JNI
+
+If you want, I can next:
+
+Provide answers for coding questions
+
+Or create a mock test with answer sheet printable format
+
+Or explain any topic deeply for viva**
+
+
+Tell me what you want next 💪
